@@ -21,6 +21,7 @@ import (
 	"github.com/devflowinc/uzi/cmd/reset"
 	"github.com/devflowinc/uzi/cmd/run"
 	"github.com/devflowinc/uzi/cmd/watch"
+	"github.com/devflowinc/uzi/cmd/web"
 
 	"github.com/peterbourgon/ff/v3/ffcli"
 )
@@ -34,6 +35,7 @@ var subcommands = []*ffcli.Command{
 	checkpoint.CmdCheckpoint,
 	watch.CmdWatch,
 	broadcast.CmdBroadcast,
+	web.CmdWeb,
 }
 
 var commandAliases = map[string]*regexp.Regexp{

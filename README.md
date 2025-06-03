@@ -186,6 +186,16 @@ uzi reset
 
 **Warning**: This deletes all data in `~/.local/share/uzi`
 
+### `uzi web`
+
+Launch a simple web interface for sending prompts and viewing agent status.
+
+```bash
+uzi web --port 8080
+```
+
+Open `http://localhost:8080` in your browser and use the form to send new prompts.
+
 ### Advanced Usage
 
 **Running different AI tools:**
